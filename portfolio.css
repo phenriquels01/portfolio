@@ -1,0 +1,828 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+
+
+.principal {
+
+    height: 100vh;
+    width: 100%;
+    background-color:   #1A1D53;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#redirecionamento_header {
+
+    height: 1vh;
+    width: 100%;
+    background-color:#1e4ea7;
+
+}
+
+
+.header {
+
+    padding-bottom: 2vh;
+    width: 100%;
+    background-color:#1e4ea7;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    gap: 15vh;
+    z-index: 1;
+
+}
+
+
+.texto_header {
+
+    margin-top: 1.5vh;
+    font-size: 1.5rem;
+    margin-left: 19vh;
+
+    a {
+
+    color: white;
+    font-family: "Questrial", sans-serif;
+    text-align: center;
+    text-align: center;
+    text-decoration: none;
+
+    }
+    
+}
+
+
+.logo{
+    
+    height: 10%;
+    margin-left: 3.5%;
+    margin-top: 5%;
+
+
+    img{
+
+        height: 90%;
+    }
+}
+
+
+.secao_inicio {
+
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.secao_inicio_texto {
+
+
+    height: 100%;
+    width: 70%;
+    margin-top: 6%;
+    margin-left: -10%;
+    display: flex;
+    flex-direction: column;
+
+
+    
+    h1 {
+
+        width: 100%;
+        padding-bottom: 3%; 
+        color: white;
+        font-family: "Quicksand", sans-serif;
+        font-size: 7.5rem;
+        font-weight:200;
+        text-align: center;
+        
+    }
+
+    p {
+
+        margin-left: 18.5%;
+        width: 63%;
+        color: white;
+        font-family: "Questrial", sans-serif;
+        font-size:1.5rem;
+        font-weight:200;
+        text-align: justify;
+        
+    }
+
+}
+
+
+.secao_inicio_foto {
+
+    width: 35%;
+
+    img { 
+        
+    margin-top: 1%;
+    border-radius: 300px;
+    height:70%;
+    box-shadow: 1px 0px 12px 1px rgb(117, 160, 255);
+
+
+
+    }
+}
+
+
+.borda {
+
+    padding-top: 5vh;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 70vh 5vh;
+    border-top-left-radius: 70vh 5vh;
+    padding-bottom: 2vh;
+    margin-top: 1.5vh;
+
+}
+
+
+#secao_habilidades {
+
+    background-color: rgb(255, 255, 255);
+    padding-top: 18vh;
+    padding-bottom: 5vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.titulo_habilidades {
+
+    color: #2d3e76;
+    font-family: "Quicksand", sans-serif;
+    font-size: 6rem;
+    font-weight:bolder;
+    margin-left: 5%;
+    margin-top: -2%;
+    width: 45%;
+    text-align: center;
+
+}
+
+
+.linha-vertical {
+
+    height: 68vh;
+    width: 0.5%;
+    border-radius: 40px;
+
+    background-image: linear-gradient(#24C897,#38676f, white);
+
+}
+
+
+.texto_habilidades {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 65vh;
+
+}
+
+
+.img_logos  {
+
+    height: 10vh;
+    margin-top: 9%;
+    margin-left: 12%;
+    display: flex;
+
+    img {
+
+       height: 10vh;
+    }
+
+
+}
+
+
+.paragrafos_habilidades {
+
+    color: #1A1D53;
+    font-family: "Questrial", sans-serif;
+    font-size: 2rem;
+    font-weight:bolder;
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+
+
+#secao_trabalhos {
+
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 23vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.titulo_trabalhos {
+
+    color: #2d3e76;
+    font-family: "Quicksand", sans-serif;
+    font-size: 4.5rem;
+    font-weight:bolder;
+    text-align: center;
+    margin-top: 15vh;
+    padding-bottom: 11vh;
+
+}
+
+.grid_titulos{
+
+    display: grid;
+    grid-template-columns: 33.35% 33.35% 33.35%;
+
+    h3 {
+
+        font-family: "Questrial", sans-serif;
+        text-align: center;
+        font-size: 2.2rem;
+        font-weight: bolder;
+        color: #3d4e92;
+    }
+
+}
+
+
+.grid_trabalhos {
+
+    display: grid;
+    grid-template-columns: 33.35% 33.35% 33.35%;
+    gap: 1vh;
+    margin-top: 2vh;
+
+}
+
+
+.caixa_grid {
+
+    position: relative;
+    overflow: hidden;
+
+    img {
+
+    width: 85%;
+    margin-left: 6%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+
+    }
+}
+
+
+.caixa_grid:hover img {
+
+    transform: scale(1.05); /* Aumenta a imagem em 5% no hover */
+
+}
+
+
+.descricao_dos_itens {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 89.4%;
+    margin-left: 3.7%;
+    color: #1b1c53;
+    font-family: "Questrial", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.856); /* Fundo branco semi-transparente para a descrição */
+    opacity: 0;
+    border-radius: 5px;
+    transform: translateY(100%);
+    transition: all 0.5s ease; /* Transição suave */
+ 
+}
+
+
+.caixa_grid:hover .descricao_dos_itens {
+    
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+
+.borda2 {
+
+    padding-top: 5vh;
+    background-color: #1A1D53;
+    border-top-right-radius: 70vh 5vh;
+    border-top-left-radius: 70vh 5vh;
+    padding-bottom: 7vh;
+    margin-top: 1.5vh;
+
+}
+
+
+#secao_formulario {
+
+    background-color: #1A1D53;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8vh;
+
+}
+
+
+.logo2{
+    
+    height: 10%;
+    margin-right: 88.5%;
+    position: absolute;
+
+    img{
+
+        height: 90%;
+    }
+}
+
+
+.titulo_formulario {
+
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 4.5rem;
+    margin-top: 10vh;
+    font-weight:bolder;
+    text-align: center;
+
+}
+
+.subtitulo_formulario {
+
+    color: #ffffff;
+    font-family: "Questrial", sans-serif;
+    font-size: 2rem;
+    margin-top: 4vh;
+    margin-left: -6vh;
+    font-weight:700;    
+    text-align: center;
+
+}
+
+
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+    gap: 20px;
+    width: 80%;
+
+}
+
+
+
+.formularioflex {
+
+    display: flex;
+    padding-bottom: 5vh;
+   
+}
+    
+
+
+label {
+
+
+    font-family: "Questrial", sans-serif;
+    font-weight: bold;
+    color: #24C897;
+    margin-top: 2.2vh;
+    font-size: 2rem;
+    width: 18vh;
+
+}
+
+
+.formulario_nome {
+
+    width: 50%;
+}
+
+
+#nome {
+
+    width: 70%;
+    font-family: "Questrial", sans-serif;
+    border: none;
+    border-bottom: 2px solid #1e4ea7;
+    background-color: transparent;
+    padding-left: 1vh;
+    font-size: 1.8rem;
+    color: #ffffff;
+    outline: none;
+
+}
+
+
+.formulario_email {
+
+    width: 50%;
+
+}
+
+
+#email {
+
+    width: 81.5%;
+    font-family: "Questrial", sans-serif;
+    border: none;
+    border-bottom: 2px solid #1e4ea7;
+    background-color: transparent;
+    padding-left: 1vh;
+    font-size: 1.8rem;
+    color: #ffffff;
+    outline: none;
+
+}
+
+
+.formulario_mensagem {
+
+    padding-top: 2vh;
+}
+
+
+#mensagem {
+
+    height: 40%;
+    width: 80.8%;
+    font-family: "Questrial", sans-serif;
+    border: none;
+    border-bottom: 2px solid #1e4ea7;
+    background-color: transparent;
+    padding-left: 1vh;
+    font-size: 1.8rem;
+    color: #ffffff;
+    outline: none;
+    resize: none;
+        
+}
+
+
+
+.enviar {
+
+        height: 8vh;
+        width: 25%;
+        margin-top: 8vh;
+        margin-left: 57vh;
+        font-family: "Questrial", sans-serif;
+        font-weight: bold;
+        background-color: #ffffff;
+        font-size: 2.5rem;
+        color: #1A1D53;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 2.5rem;
+
+}
+
+
+.logos_redes {
+
+    display: flex;
+    margin-left: 90%;
+    gap: 1vh;
+    height: 2vh;
+    
+    img {
+
+        height: 5vh;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+
+    .header{
+
+        gap: 10%;
+        position: absolute;
+
+    }
+
+    .texto_header {
+
+        margin-top: 1.5vh;
+        font-size: 1rem;
+        margin-left: 4vh;
+    
+        a {
+    
+        text-align: center;
+        text-align: center;
+        text-decoration: none;
+    
+        }
+        
+    }
+
+    .logo{
+
+        margin-bottom: 6vh;
+    }
+
+
+    .secao_inicio_texto {
+
+
+        height: 100%;
+        width: 70%;
+        margin-top: 6%;
+        margin-left: -10%;
+    
+        
+        h1 {
+    
+            width: 100%;
+            padding-bottom: 15%; 
+            font-size: 6rem;
+            font-weight:200;
+
+            
+        }
+    
+        p {
+    
+            margin-left: 30%;
+            width: 100%;
+            font-size:1.5rem;
+            font-weight:200;
+
+            
+        }
+    
+    }
+
+
+
+    .secao_inicio_foto {
+
+    width: 35%;
+
+    img { 
+
+    margin-top: 3%;
+    height: 40%;
+
+
+    }
+
+    }
+
+
+    #secao_habilidades {
+
+        padding-top: 12vh;
+        padding-bottom: 2vh;
+
+
+    }
+
+
+    .titulo_habilidades {
+
+        font-size: 3rem ;
+        margin-left: 1%;
+        margin-top: -15%;
+        margin-right: 3.5%;
+        width: 45%;
+    
+    }
+
+    .texto_habilidades {
+
+        gap: 8vh;
+    
+    }
+
+    .img_logos  {
+    
+        img {
+    
+           height: 7.5vh;
+           margin-left: -3%;
+        }
+    
+    
+    }
+    
+    
+    .paragrafos_habilidades {
+
+        font-size: 1.4rem;
+        margin-top: 3%;
+        margin-left: 4%;
+        margin-right: 5%;
+        text-align: justify;
+    
+    }
+
+
+    #secao_trabalhos {
+
+        padding-bottom: 15vh;
+
+
+    }
+    
+
+    .titulo_trabalhos {
+
+        margin-top: 15vh;
+
+    
+    }
+
+    .grid_titulos{
+
+        display: grid;
+        grid-template-columns: 33.35% 33.35% 33.35%;
+
+        h3{
+
+            font-size: 2rem;
+            text-align: center;
+
+        }
+
+
+    }
+
+    .grid_trabalhos {
+
+        grid-template-columns: 33.35% 33.35% 33.35%;
+        margin-left: -1%;
+    }
+
+    .caixa_grid {
+        
+        img{
+            
+            height: 15vh;
+        }
+    }
+
+
+    .descricao_dos_itens {
+
+
+        position: static;
+        opacity: 1;
+        transform: none;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-sizing: border-box;
+        margin-top: 10px;
+
+    }
+
+
+    .borda2 {
+
+        padding-bottom: 3vh;
+
+    }
+
+
+    .formulario {
+
+        width: 100%;
+        margin-left: 6.5%;
+
+    }
+
+
+    .subtitulo_formulario{
+
+        margin-left: 2%;
+    }
+
+
+    #nome, #email {
+
+        padding-top: 1vh;
+        font-size: 1.25rem;
+        width: 50%;
+
+    }
+
+
+    #mensagem {
+
+        font-size: 1.25rem;
+        padding-top: 2vh;
+        width: 90%;
+
+    }
+
+    .enviar {
+
+        margin-left:35%;
+
+    }
+
+    .logos_redes {
+
+        margin-left: 70%;
+    }
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+}

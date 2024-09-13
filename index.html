@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <main class="principal">
+            <header id="redirecionamento_header"></header>
+            <header class="header">
+                <div class="texto_header"> <a href="#redirecionamento_header" alt="Início"> Início </a> </div>
+                <div class="texto_header"> <a href="#secao_habilidades" alt="Minhas Habilidades"> Minhas Habilidades </a> </div>
+                <div class="texto_header"> <a href="#secao_trabalhos" alt="Meus Trabalhos"> Meus Trabalhos </a>  </div>
+                <div class="texto_header"> <a href="#secao_formulario" alt="Contato"> Contato </a> </div>
+            </header>
+            <div class="logo"><img src="https://i.ibb.co/0Bxf653/Preview.jpg" alt="Logotipo Pedro Siqueira"></div>
+            <section class="secao_inicio">
+                <div class="secao_inicio_texto">
+                    <h1> Bem Vindo(a).</h1>
+                    <p> Meu nome é Pedro Siqueira e eu sou um desenvolvedor web com experiência de 2 semanas. Possuo capacitação de nível inciante, tendo trabalhado à frente de 3 projetos com  o foco em melhorar minhas habilidades como programador. Conheça mais sobre minhas qualificações e trabalhos à baixo!</p>
+                </div>
+                <div class="secao_inicio_foto">
+                    <img src="https://i.ibb.co/CVKZfz2/IMG-9826.jpg" alt="Foto de perfil">
+                </div>
+            </section>
+            <div class="borda"></div>
+            <section id="secao_habilidades">
+                <h2 class="titulo_habilidades"> MINHAS HABILIDADES </h2>
+                <div class="linha-vertical"></div>
+                <div class="texto_habilidades">
+                    <div class="img_logos"><img src="https://i.ibb.co/42Gym4t/pngegg.png" alt="Logotipo HTML5">
+                        <p class="paragrafos_habilidades"> Experiência de 2 semanas em HTML5. </p>
+                    </div>
+                    <div class="img_logos"><img src="https://i.ibb.co/5xLvxhK/pngegg-1.png" alt="Logotipo CSS3">
+                        <p class="paragrafos_habilidades"> Experiência de 2 semanas em CSS3.</p>
+                    </div>
+                    <div class="img_logos"><img src="https://i.ibb.co/6y4ppt7/pngegg-2.png" alt="Logotipo JavaScript">
+                        <p class="paragrafos_habilidades"> Experiência de 1 semana em JavaScript.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="secao_trabalhos">
+                <h2 class="titulo_trabalhos"> MEUS TRABALHOS </h2>
+                <div class="grid_titulos">
+                    <h3 > Aula 1  - Tomorrow </h3>
+                    <h3 > Cardápio </h3>
+                    <h3 > Reviews de Filmes  </h3>
+                </div>
+                <div class="grid_trabalhos">
+                    <div class="caixa_grid">
+                        <a href="https://phenriquels01.github.io/aula1tomorrow/"><img src="https://i.ibb.co/zbZvC2f/Captura-de-tela-de-2024-09-11-18-29-36.png" alt="Foto do trabalho 1"></a>
+                        <div class="descricao_dos_itens">
+                            <p> Projeto com foco em melhorar conhecimentos básicos em HTML e CSS. </p>
+                        </div>
+                    </div>
+                    <div class="caixa_grid">
+                        <a href="https://phenriquels01.github.io/prototipo-cardapio/"><img src="https://i.ibb.co/KytStsn/Captura-de-tela-de-2024-09-11-18-38-00.png" alt="Foto do trabalho 2"></a>
+                        <div class="descricao_dos_itens">
+                            <p> Protótipo de cardápio de restaurante. Responsivo em desktop e mobile.</p>
+                        </div>
+                    </div>   
+                    <div class="caixa_grid">
+                        <a href="https://phenriquels01.github.io/prototipo-reviews/"><img src="https://i.ibb.co/WvqP684/Captura-de-tela-de-2024-09-11-19-40-27.png" alt="Foto do trabalho 3"></a>
+                        <div class="descricao_dos_itens">
+                        <p> Protótipo de site avaliador de filmes. Responsivo em desktop e mobile. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="borda2"></div>
+            <section id="secao_formulario">
+                <div class="logo2"><img src="https://i.ibb.co/0Bxf653/Preview.jpg" alt="Logotipo Pedro Siqueira"></div>    
+                <h2 class="titulo_formulario"> Dúvidas, propostas ou sugestões?  </h2>
+                <h3 class="subtitulo_formulario"> Mande-me uma mensagem!</h3>
+                <form class="formulario">
+                    <div class="formularioflex">
+                        <div class="formulario_nome">
+                            <label for="name"> Seu Nome: </label>
+                            <input type="text" id="nome" placeholder="Insira o seu nome" required>
+                        </div>
+                        <div class="formulario_email">
+                            <label for="email"> Email: </label>
+                            <input type="email" id="email" placeholder="Insira o seu endereço de email" required>
+                        </div>
+                    </div>
+                    <div class="formulario_mensagem">
+                        <label for="message"> Sua Mensagem: </label>
+                        <textarea id="mensagem" placeholder="Insira a sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="enviar"> Enviar </button>
+                </form>
+                <div class="logos_redes">
+                    <a href="https://www.linkedin.com/in/pedro-henrique-siqueira-b22454213/"><img src="https://i.ibb.co/D7kC5Gj/pngegg-1.png" alt="Logotipo Linkedin"></a>
+                    <a href="https://www.instagram.com/_peuhsiqueira/"><img src="https://i.ibb.co/TDX67Cs/pngegg-2.png" alt="Logotipo Instagram"></a>
+                </div>
+            </section>
+        </main>
+    <script src="portfolio.js">
+    </script>
+</body>
+</html>
